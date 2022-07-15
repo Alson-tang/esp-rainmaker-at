@@ -497,6 +497,12 @@ bool esp_at_eap_cmd_regist(void);
 bool esp_at_eth_cmd_regist(void);
 
 /**
+ * @brief regist at rainmaker command set. If not,you can not use AT rainmaker command
+ *
+ */
+bool esp_at_rainmaker_cmd_regist(void);
+
+/**
  * @brief Set AT command terminator, by default, the terminator is "\r\n"
  * You can change it by calling this function, but it just supports one character now.
  * @param terminator: the line terminator

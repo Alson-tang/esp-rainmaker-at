@@ -41,6 +41,13 @@ if(NOT DEFINED ENV{IDF_PATH})
     message(STATUS $ENV{IDF_PATH})
 endif()
 
+if ("${IDF_TARGET}" STREQUAL "esp32c3")
+    if (NOT DEFINED ENV{RMAKER_PATH})
+        set(RMAKER_PATH ${CMAKE_SOURCE_DIR}/components/esp-rainmaker)
+        set(EXTRA_COMPONENT_DIRS ${RMAKER_PATH}/components/esp-insights/components ${RMAKER_PATH}/components)
+    endif()
+endif()
+
 execute_process(COMMAND git rev-parse --short HEAD
                 OUTPUT_VARIABLE ESP_AT_PROJECT_COMMIT_ID
                 OUTPUT_STRIP_TRAILING_WHITESPACE)
