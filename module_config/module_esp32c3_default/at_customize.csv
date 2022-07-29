@@ -13,6 +13,4 @@ wpa2_ca,    0x40, 11, 0x36000, 8K
 mqtt_cert,  0x40, 12, 0x38000, 8K
 mqtt_key,   0x40, 13, 0x3a000, 8K
 mqtt_ca,    0x40, 14, 0x3c000, 8K
-rmaker_pre, data, nvs, 0x3e000, 8K
-rmaker_dyn, data, nvs, 0x40000, 8K
 fatfs,      data, fat,0x47000, 100K
