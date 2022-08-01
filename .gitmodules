@@ -1,3 +1,6 @@
 [submodule "components/esp-rainmaker"]
 	path = components/esp-rainmaker
 	url = https://github.com/espressif/esp-rainmaker.git
+[submodule "components/esp-rainmaker-admin-cli"]
+	path = components/esp-rainmaker-admin-cli
+	url = https://github.com/espressif/esp-rainmaker-admin-cli.git
