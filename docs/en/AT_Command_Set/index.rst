@@ -246,3 +246,5 @@ There are two types of ESP-AT messages returned from the ESP-AT command port:
        - Received encryption request which index is <conn_index>
      * - +BLEAUTHCMPL:<conn_index>,<enc_result>
        - Bluetooth LE SMP pairing completed
+     * - RainMaker AT Messages
+       - Please refer to :ref:`ESP-AT RainMaker Message Reports (active) <rm-at-messages>`
