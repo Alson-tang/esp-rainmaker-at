@@ -7,6 +7,7 @@ RainMaker AT Commands and Firmware
    
    RainMaker AT Command Set <RainMaker_AT_Command_Set>
    RainMaker AT Examples <RainMaker_AT_Examples>
+   Index of Abbreviations <index_of_abbreviations>
 
 .. _rm-at-messages:
 
